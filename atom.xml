@@ -3,11 +3,11 @@
   <title>Afei的博客</title>
   
   <subtitle>博客</subtitle>
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://welovting.xyz/blog/"/>
+  <link href="http://welovting.xyz/"/>
   <updated>2019-12-10T06:50:15.801Z</updated>
-  <id>http://welovting.xyz/blog/</id>
+  <id>http://welovting.xyz/</id>
   
   <author>
     <name>afei</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Test</title>
-    <link href="http://welovting.xyz/blog/2019/12/10/Test/"/>
-    <id>http://welovting.xyz/blog/2019/12/10/Test/</id>
+    <link href="http://welovting.xyz/2019/12/10/Test/"/>
+    <id>http://welovting.xyz/2019/12/10/Test/</id>
     <published>2019-12-10T06:34:36.000Z</published>
     <updated>2019-12-10T06:50:15.801Z</updated>
     
@@ -36,14 +36,14 @@
     
     
     
-      <category term="test" scheme="http://welovting.xyz/blog/tags/test/"/>
+      <category term="test" scheme="http://welovting.xyz/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://welovting.xyz/blog/2019/12/10/hello-world/"/>
-    <id>http://welovting.xyz/blog/2019/12/10/hello-world/</id>
+    <link href="http://welovting.xyz/2019/12/10/hello-world/"/>
+    <id>http://welovting.xyz/2019/12/10/hello-world/</id>
     <published>2019-12-10T02:23:53.923Z</published>
     <updated>2019-12-10T08:53:08.997Z</updated>
     
@@ -60,7 +60,7 @@
     
     
     
-      <category term="test" scheme="http://welovting.xyz/blog/tags/test/"/>
+      <category term="test" scheme="http://welovting.xyz/tags/test/"/>
     
   </entry>
   
