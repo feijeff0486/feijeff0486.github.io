@@ -297,6 +297,40 @@
 </script>
 
 
+    
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+    <script>
+
+        var valine = new Valine();
+
+        function initValine(path) {
+            if (!path) path = window.location.pathname;
+            let language = 'zh-CN';
+            if (!language) {
+                language = 'en';
+            } else {
+                language = language.toLowerCase();
+            }
+            valine.init({
+                el: '#vcomments',
+                appId: '5bIvyBwsHebjIQtwO0U29arO-gzGzoHsz',
+                appKey: 'B5TUq9PFXTCzOpE6H9OI2iif',
+                notify: 'false',
+                verify: 'false',
+                avatar: 'mp',
+                placeholder: '欢迎指点评论~',
+                visitor: 'true',
+                path: path,
+                lang: language
+            });
+        }
+
+        $(document).ready(function () {
+            initValine();
+        });
+    </script>
+
 
 
 </html>

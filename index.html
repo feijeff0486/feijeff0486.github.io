@@ -151,6 +151,11 @@
             </span>
             
             
+            <span id="/2019/12/11/ThemeObsidianNotice/" class="leancloud_visitors" data-flag-title="">
+                <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                <i class="leancloud-visitors-count">1000000</i>
+            </span>
+            
         </p>
         
         
@@ -212,6 +217,11 @@
                     </span>
                 
                 
+                    <span id="/2019/12/10/Test/" class="leancloud_visitors" data-flag-title="">
+                        <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                        <i class="leancloud-visitors-count">1000000</i>
+                    </span>
+                
             </p>
             
                 <ul class="animated fadeInDown post-tags-list" itemprop="keywords"><li class="animated fadeInDown post-tags-list-item"><a class="animated fadeInDown post-tags-list-link" href="/tags/test/" rel="tag">test</a></li></ul>
@@ -259,6 +269,11 @@
                         5 mins.
                     </span>
                 
+                
+                    <span id="/2019/12/10/hello-world/" class="leancloud_visitors" data-flag-title="">
+                        <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                        <i class="leancloud-visitors-count">1000000</i>
+                    </span>
                 
             </p>
             
@@ -511,6 +526,40 @@
     }
 </script>
 
+
+    
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+    <script>
+
+        var valine = new Valine();
+
+        function initValine(path) {
+            if (!path) path = window.location.pathname;
+            let language = 'zh-CN';
+            if (!language) {
+                language = 'en';
+            } else {
+                language = language.toLowerCase();
+            }
+            valine.init({
+                el: '#vcomments',
+                appId: '5bIvyBwsHebjIQtwO0U29arO-gzGzoHsz',
+                appKey: 'B5TUq9PFXTCzOpE6H9OI2iif',
+                notify: 'false',
+                verify: 'false',
+                avatar: 'mp',
+                placeholder: '欢迎指点评论~',
+                visitor: 'true',
+                path: path,
+                lang: language
+            });
+        }
+
+        $(document).ready(function () {
+            initValine();
+        });
+    </script>
 
 
 
